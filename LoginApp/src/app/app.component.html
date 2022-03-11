@@ -1,41 +1,6 @@
-<style>
-.f{
-  text-align: center;
-  margin-top: 20px;
-}
-.b{
-  margin-top: 20px;
-  padding: 20px;
-}
-.u{
-  padding: 20px;
-}
-.p{
-  margin-top: 20px;
-}
-</style>
 <div style="text-align:center">
    <h1>
       Welcome to {{title}}.
    </h1>
 </div>
-
-<div> Months :
-   <select>
-      <option *ngFor="let i of months">{{i}}</option>
-   </select>
-</div>
-
-<div class="f">
-<div class="u">
-         <label for="username">Username:</label>
-         <input type="text" id="username" placeholder="Username" required>
-</div>
-<div class="p">
-         <label for="password">Password:</label>
-         <input type="text" id="password" placeholder="Password" required>
-</div>
-<div class="b">
-      <button (click)="myClickFunction()">Login</button>
-</div>
-</div>
+<app-login></app-login>
