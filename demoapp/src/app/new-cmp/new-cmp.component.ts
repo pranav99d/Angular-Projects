@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NewCmpComponent implements OnInit {
 
   newcomponent = "Entered in new component created";
-  
+  todaydate = new Date();
+  jsonval = {name:'Rox', age:'25', address:{a1:'Mumbai', a2:'Karnataka'}};
+  months = ["Jan", "Feb", "Mar", "April", "May", "Jun",
+             "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+
   constructor() { }
 
   ngOnInit(): void {
