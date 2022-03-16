@@ -20,7 +20,7 @@ export class ModelDrivenFormComponent implements OnInit {
       passwd: new FormControl('', this.passwordvalidation)
     });
   }
-  passwordvalidation(formcontrol:any) {
+  passwordvalidation(formcontrol: any) {
     if (formcontrol.value.length < 5) {
       return { "passwd": true };
     }
