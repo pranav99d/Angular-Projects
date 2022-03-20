@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "desc": "student",
+      "salary": 10000
+    },
+    {
+      "id": 2,
+      "name": "pranav",
+      "email": "pranav@gmail",
+      "desc": "teacher",
+      "salary": 30000
+    },
+    {
+      "id": 3,
+      "name": "shivam",
+      "email": "shivam@gmail.com",
+      "desc": "player",
+      "salary": 20000
+    },
+    {
+      "id": 4,
+      "name": "Shubham",
+      "email": "shubham@gmail.com",
+      "desc": "Manager",
+      "salary": "25000"
+    }
+  ]
+}
