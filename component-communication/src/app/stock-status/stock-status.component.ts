@@ -25,7 +25,7 @@ export class StockStatusComponent implements OnChanges {
 
     this.stockValueChange.emit({ id: this.productId, updatedstockvalue: this.updatedstockvalue });
     alert(this.updatedstockvalue);
-    this.stock == this.updatedstockvalue;
+    this.updatedstockvalue != null;
 
   }
 
