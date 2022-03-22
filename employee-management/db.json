@@ -27,6 +27,13 @@
       "email": "shubham@gmail.com",
       "desc": "Manager",
       "salary": "25000"
+    },
+    {
+      "id": 5,
+      "name": "Adarsh ",
+      "email": "adarsh23@gmail.com",
+      "desc": "Programmer",
+      "salary": "40000"
     }
   ]
 }
