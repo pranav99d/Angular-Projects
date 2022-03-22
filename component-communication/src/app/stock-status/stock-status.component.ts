@@ -23,10 +23,10 @@ export class StockStatusComponent implements OnChanges {
 
   stockValueChanged() {
 
-    this.stockValueChange.emit({ id: this.productId, updatedstockvalue: this.updatedstockvalue });
-    alert(this.updatedstockvalue);
-    this.updatedstockvalue != null;
+    this.stockValueChange.emit({ id: this.productId, updatdstockvalue: this.updatedstockvalue });
 
+    this.updatedstockvalue != null;
+    alert(this.updatedstockvalue);
   }
 
   ngOnChanges() {
